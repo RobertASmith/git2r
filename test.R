@@ -1,3 +1,5 @@
-# test new script
+# analysis
 
-print("I created a new script")
+df_mt <- head(mtcars)
+
+write.csv(df_mt,"test.csv")
